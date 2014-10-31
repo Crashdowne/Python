@@ -141,4 +141,8 @@ and even somewhat confusing. It feels like Scratch is a step backwards, and its 
 previous experience with Java, we were able to catch onto Python fairly quickly. Albeit it still takes time to really learn a new programming 
 language.
 
+	Pair programming is an interesting concept
+	
+(1) http://www.engineersgarage.com/contribution/difference-between-compiler-and-interpreter
+(2) https://www.udemy.com/blog/python-vs-java/
 """
