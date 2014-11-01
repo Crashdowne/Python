@@ -61,6 +61,7 @@ while quit == False:
 		#Checks to see if the guess is greater than the random number, prints 	
 		elif user_guess > random_number:
 			
+			#The following code gives the user hints on how close they are to the number
 			if user_guess - random_number <= 10:
 				print "\n>>> Almost there!!"
 				print ">>> Your guess was too high"
@@ -87,6 +88,7 @@ while quit == False:
 		#Checks to see if the guess is smaller than the random number		
 		else:
 			
+			#The following code gives the user hints on how close they are to the number
 			if random_number - user_guess <= 10:
 				print "\n>>> Almost there!"
 				print ">>> Your guess was too low"
