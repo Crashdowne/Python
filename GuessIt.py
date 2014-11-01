@@ -25,9 +25,6 @@ count = 0
 #Generates the random number
 random_number = randint(1,100)
 
-print "\nRANDOM NUMBER FOR TESTING PURPOSES: "
-print random_number
-
 #Loop containing the game runs until the program produces "True" and terminates on "True"
 while quit == False:
 
@@ -136,13 +133,24 @@ beginners. This is because the code feels more like English than other languages
 that variables do not have to be explicitly defined, it can interpret them. Whereas, other languages are more strict. with this in mind, it appears 
 as though Python may be a good starting point for beginners, rather than a more strict programming language.
 
-	Because Marina and I have already taken CSC 110, we found Python to be much more comfortable than Scratch. In some ways Scratch felt more clunky
+	We have already taken CSC 110, we found Python to be much more comfortable than Scratch. In some ways Scratch felt more clunky
 and even somewhat confusing. It feels like Scratch is a step backwards, and its simplicity actually makes it more difficult to use. Because of our
 previous experience with Java, we were able to catch onto Python fairly quickly. Albeit it still takes time to really learn a new programming 
 language.
 
-	Pair programming is an interesting concept
+	Pair programming is a programming methodology that is, as the name implies, about programming in pairs. More specifically, two programmers sit side-by-side, 
+with both focused on the code. The programmers can slide the keyboard and mouse between each other, so they can both contribute to the code, directly and 
+indirectly(3). The argument for paired programming is that, even though you have two programmers on the same computer (which may seem less efficient),
+there is no added cost, as the code will be of higher quality. Which is worth more in the long run(4). Of course, we have to assume that the partners
+can actually work together, and adjust to the new methodology. 
+
+	With regard to paired programming, in this and last assignment, we worked together on the programs. Because we found Scratch to be a bit more
+challenging, we worked together, on one person's computer to get things working. While we didn't practice perfect paired programming, we did
+benefit from the collaboration, especially when using each other as sounding boards.
 	
 (1) http://www.engineersgarage.com/contribution/difference-between-compiler-and-interpreter
 (2) https://www.udemy.com/blog/python-vs-java/
+(3) http://www.extremeprogramming.org/rules/pair.html
+(4) http://guide.agilealliance.org/guide/pairing.html
+
 """
