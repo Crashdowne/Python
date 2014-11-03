@@ -10,7 +10,7 @@ print  "*                                                                       
 print  "*************************************************************************"
 
 
-#Imports library required to generate randome numbers
+#Imports library required to generate random numbers
 from random import randint
 
 #Sets up a boolean to determine if the program needs to terminate or not
@@ -123,14 +123,14 @@ while quit == False:
 rather, it uses an interpreter. Interpreters are similar to compilers in the way that they translate high-level languages into machine code.
 But they differ in the way that they translate the code. Interpreters execute the code sequentially, that is, line by line, and will halt when
 an error is found. The code is converted into 'intermediate code', and executed line by line.  Whereas, compilers builds the entire program, 
-then translates it into machine code(1). Other differences between Python and other languages are the code conventions. Python uses indentation,
-handles variables more dynamically, and can be more straight forward that other languages(2). Python does not make use of brackets, rather it uses
+then translates it into machine code[1]. Other differences between Python and other languages are the code conventions. Python uses indentation,
+handles variables more dynamically, and can be more straight forward that other languages[2]. Python does not make use of brackets, rather it uses
 indentation, which is different than other languages. It also does not require the user to define variables explicitly, which allows it to handle
-variables more dynamically. Python also uses some more natural language in its code, such as 'or' rather than '||' (which is used in Java)(2).
+variables more dynamically. Python also uses some more natural language in its code, such as 'or' rather than '||' (which is used in Java)[2].
 
 	With this information, we can see some pros and cons to the use of Python. The first, and quite possibly the most important, con to using Python
 is that it is slower. This is due to the nature of an interpreter than a compiler. Because an interpreter executes lie by line, it performs slower
-than a compiler, which will execute a chunk of code(2). Python also appears to be a bit more friendly than other languages, such as Java, for 
+than a compiler, which will execute a chunk of code[2]. Python also appears to be a bit more friendly than other languages, such as Java, for 
 beginners. This is because the code feels more like English than other languages. It is also more forgiving than some other languages, in the way
 that variables do not have to be explicitly defined, it can interpret them. Whereas, other languages are more strict. with this in mind, it appears 
 as though Python may be a good starting point for beginners, rather than a more strict programming language.
@@ -142,17 +142,24 @@ language.
 
 	Pair programming is a programming methodology that is, as the name implies, about programming in pairs. More specifically, two programmers sit side-by-side, 
 with both focused on the code. The programmers can slide the keyboard and mouse between each other, so they can both contribute to the code, directly and 
-indirectly(3). The argument for paired programming is that, even though you have two programmers on the same computer (which may seem less efficient),
-there is no added cost, as the code will be of higher quality. Which is worth more in the long run(4). Of course, we have to assume that the partners
+indirectly[3]. The argument for paired programming is that, even though you have two programmers on the same computer (which may seem less efficient),
+there is no added cost, as the code will be of higher quality. Which is worth more in the long run[4]. Of course, we have to assume that the partners
 can actually work together, and adjust to the new methodology. 
 
 	With regard to paired programming, in this and last assignment, we worked together on the programs. Because we found Scratch to be a bit more
 challenging, we worked together, on one person's computer to get things working. While we didn't practice perfect paired programming, we did
 benefit from the collaboration, especially when using each other as sounding boards.
 	
-(1) http://www.engineersgarage.com/contribution/difference-between-compiler-and-interpreter
-(2) https://www.udemy.com/blog/python-vs-java/
-(3) http://www.extremeprogramming.org/rules/pair.html
-(4) http://guide.agilealliance.org/guide/pairing.html
+[1] Engineers Garage. Difference Between Compiler and Interpreter[Online]. Available: 
+	http://www.engineersgarage.com/contribution/difference-between-compiler-and-interpreter
+	
+[2] Udemy. Python vs Java: Key Differences[Online]. Available:
+	https://www.udemy.com/blog/python-vs-java/
+	
+[3] Wells, D (1999). Pair Programming[Online]. Available:
+	http://www.extremeprogramming.org/rules/pair.html
+	
+[4] Agile Alliance. Pair Programming[Onine]. Available:
+	http://guide.agilealliance.org/guide/pairing.html
 
 """
